@@ -37,7 +37,7 @@
 
 ---
 ## 💻 Tech Stack
-**Languages:** C, C++ , java 
+**Languages:** C, C++,java 
 **Web:** HTML, CSS, JavaScript, Bootstrap, Node.js, Express.js  
 **Databases:** MySQL, MongoDB  
 **Tools:** Git, GitHub, Terminal (Basic)
