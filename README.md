@@ -64,6 +64,10 @@
   <img src="https://img.shields.io/badge/TextPsyco-181717?style=for-the-badge&logo=github&logoColor=white" />
 </a>
 
+<a href="https://github.com/Bheemeswari497/Hospital_appointment_management_system">
+  <img src="https://img.shields.io/badge/HAMS-181717?style=for-the-badge&logo=github&logoColor=white" /> 
+</a>
+
 </p>
 
 
