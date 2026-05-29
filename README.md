@@ -1,79 +1,119 @@
+<h1 align="center">
+  Hey 👋, I'm Bheemeswari
+</h1>
 
-<h1 align="center">Hi 👋, I'm Bheemeswari✨</h1>
-<h3 align="center">Student Developer exploring Web Technologies & Problem Solving</h3>
-
+<h3 align="center">
+AIML Undergraduate | Full Stack Developer | DSA Enthusiast
+</h3>
 
 <p align="center">
-  <img src="https://media.tenor.com/-UygBh3nnfEAAAAC/coding.gif" alt="banner" width="70%">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=26&pause=1000&color=58A6FF&center=true&vCenter=true&width=800&lines=AIML+Student;Full+Stack+Developer;DSA+Learner;Open+Source+Contributor;Future+ML+Engineer;Building+Real+World+Projects" alt="Typing SVG" />
 </p>
 
+---
 
+## 🚀 About Me
+
+<img align="right" alt="Coding" width="320" src="https://media.tenor.com/-UygBh3nnfEAAAAC/coding.gif">
+
+- 🧠 Exploring Artificial Intelligence & Machine Learning
+- 💻 Building Full Stack Applications using MERN Stack
+- 📚 Practicing DSA and improving problem-solving skills
+- 🚀 Passionate about Open Source and Real-World Projects
+- 🌱 Learning something new every day
+- 🎯 Goal: Become a skilled Software & ML Engineer
+- ⚡ Fun Fact: Debugging teaches me more than coding 😄
+
+<br><br><br><br><br><br>
 
 ---
 
-### 🧑‍💻 About Me
-- 🎓 AIML Student at **Aditya University**
-- 🌱 Currently learning **MERN Stack** & **DSA**
-- 🚀 Building projects to improve problem-solving & development skills
-- ✨ Love creating clean UI and meaningful applications
+## 🛠️ Languages and Tools
 
+<p align="center">
+
+<img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black"/>
+<img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white"/>
+<img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"/>
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
+<img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E"/>
+<img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white"/>
+<img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white"/>
+<img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white"/>
+<img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white"/>
+<img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
+<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+
+</p>
+
+---
+
+## 🔥 GitHub Streak
+
+<p align="center">
+<img src="https://streak-stats.demolab.com/?user=Bheemeswari497&theme=tokyonight&hide_border=true"/>
+</p>
 
 ---
 
-### 📚 Currently Exploring
-- MERN Stack
-- Advanced JavaScript
-- Backend APIs
-- Problem Solving & DSA
+## 📊 GitHub Stats
 
+<p align="center">
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=Bheemeswari497&show_icons=true&theme=tokyonight&hide_border=true"/>
 
----
-
-## 🌐 Socials
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/bheemeswari-oduri-156441301/)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:bheemeswarioduri@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Bheemeswari497)
-
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Bheemeswari497&layout=compact&theme=tokyonight&hide_border=true"/>
+</p>
 
 ---
-## 💻 Tech Stack
 
-- **Languages:**  
-  C, C++, Java  
+## 📈 Contribution Graph
 
-- **Web:**  
-  HTML, CSS, JavaScript, Bootstrap, Node.js, Express.js  
+[![Bheemeswari's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Bheemeswari497&theme=tokyo-night)](https://github.com/Bheemeswari497)
 
-- **Databases:**  
-  MySQL, MongoDB  
-
-- **Tools:**  
-  Git, GitHub, Terminal (Basic)  
-
-
+---
 
 ## 🚀 Featured Projects
 
+### 🏥 Hospital Appointment Management System
+Java-based hospital appointment booking and management system.
+
+### 🛒 ShopMitra Pro
+Multi-platform e-commerce price comparison platform.
+
+### 🏠 Interior Design Recommendation System
+Smart interior design recommendations based on user preferences.
+
+### 🆘 Safeguard SOS
+Emergency assistance and safety alert platform.
+
+---
+
+## 🌐 Connect With Me
+
 <p align="center">
 
-<a href="https://bheemeswari497.github.io/quiz_website/">
-  <img src="https://img.shields.io/badge/Quiz%20Website-181717?style=for-the-badge&logo=github&logoColor=white" />
+<a href="https://github.com/Bheemeswari497">
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
 
-<a href="https://bheemeswari497.github.io/Christmas_hackthon/">
-  <img src="https://img.shields.io/badge/TextPsyco-181717?style=for-the-badge&logo=github&logoColor=white" />
+<a href="https://www.linkedin.com/in/bheemeswari-oduri-156441301/">
+<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
 </a>
 
-<a href="https://github.com/Bheemeswari497/Hospital_appointment_management_system">
-  <img src="https://img.shields.io/badge/HAMS-181717?style=for-the-badge&logo=github&logoColor=white" /> 
+<a href="mailto:bheemeswarioduri@gmail.com">
+<img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
 </a>
 
 </p>
 
+---
 
+<p align="center">
+<img src="https://komarev.com/ghpvc/?username=Bheemeswari497&label=Profile%20Views&color=0e75b6&style=flat"/>
+</p>
 
-![Profile views](https://komarev.com/ghpvc/?username=Bheemeswari497)
-
-
-
-
+<h3 align="center">
+✨ Building intelligent solutions with AI and Full Stack Development ✨
+</h3>
