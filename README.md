@@ -3,7 +3,7 @@
 </h1>
 
 <h3 align="center">
-AIML Undergraduate | Full Stack Developer | DSA Enthusiast
+  AIML Undergraduate | Full Stack Developer | DSA Enthusiast
 </h3>
 
 <p align="center">
@@ -12,16 +12,16 @@ AIML Undergraduate | Full Stack Developer | DSA Enthusiast
 
 ---
 
-## 🚀 About Me
+## 👋 About Me
 
 <img align="right" alt="Coding" width="320" src="https://media.tenor.com/-UygBh3nnfEAAAAC/coding.gif">
 
 - 🧠 Exploring Artificial Intelligence & Machine Learning
 - 💻 Building Full Stack Applications using MERN Stack
-- 📚 Practicing DSA and improving problem-solving skills
+- 📚 Practicing DSA and strengthening problem-solving skills
 - 🚀 Passionate about Open Source and Real-World Projects
 - 🌱 Learning something new every day
-- 🎯 Goal: Become a skilled Software & ML Engineer
+- 🎯 Goal: Become a Skilled Software & ML Engineer
 - ⚡ Fun Fact: Debugging teaches me more than coding 😄
 
 <br><br><br><br><br><br>
@@ -53,7 +53,7 @@ AIML Undergraduate | Full Stack Developer | DSA Enthusiast
 ## 🔥 GitHub Streak
 
 <p align="center">
-<img src="https://streak-stats.demolab.com/?user=Bheemeswari497&theme=tokyonight&hide_border=true"/>
+  <img src="https://streak-stats.demolab.com/?user=Bheemeswari497&theme=tokyonight&hide_border=true" />
 </p>
 
 ---
@@ -61,32 +61,18 @@ AIML Undergraduate | Full Stack Developer | DSA Enthusiast
 ## 📊 GitHub Stats
 
 <p align="center">
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=Bheemeswari497&show_icons=true&theme=tokyonight&hide_border=true"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Bheemeswari497&show_icons=true&theme=tokyonight&hide_border=true" />
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Bheemeswari497&layout=compact&theme=tokyonight&hide_border=true"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Bheemeswari497&layout=compact&theme=tokyonight&hide_border=true" />
 </p>
 
 ---
 
 ## 📈 Contribution Graph
 
-[![Bheemeswari's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Bheemeswari497&theme=tokyo-night)](https://github.com/Bheemeswari497)
-
----
-
-## 🚀 Featured Projects
-
-### 🏥 Hospital Appointment Management System
-Java-based hospital appointment booking and management system.
-
-### 🛒 ShopMitra Pro
-Multi-platform e-commerce price comparison platform.
-
-### 🏠 Interior Design Recommendation System
-Smart interior design recommendations based on user preferences.
-
-### 🆘 Safeguard SOS
-Emergency assistance and safety alert platform.
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Bheemeswari497&theme=tokyo-night" />
+</p>
 
 ---
 
@@ -111,9 +97,9 @@ Emergency assistance and safety alert platform.
 ---
 
 <p align="center">
-<img src="https://komarev.com/ghpvc/?username=Bheemeswari497&label=Profile%20Views&color=0e75b6&style=flat"/>
+  <img src="https://komarev.com/ghpvc/?username=Bheemeswari497&label=Profile%20Views&color=0e75b6&style=flat" />
 </p>
 
 <h3 align="center">
-✨ Building intelligent solutions with AI and Full Stack Development ✨
+✨ Consistency beats motivation. Discipline builds success. ✨
 </h3>
