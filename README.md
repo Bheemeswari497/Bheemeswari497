@@ -83,6 +83,18 @@
 
 ---
 
+---
+
+## 🌱 Currently Learning
+
+- 🤖 Advanced AI & Machine Learning Concepts
+- ⚛️ MERN Stack Development
+- 🧩 Data Structures & Algorithms
+- 🌍 Open Source Collaboration
+- 🚀 Building Scalable Real-World Applications
+
+---
+
 ## 🌐 Connect With Me
 
 <p align="center">
