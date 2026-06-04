@@ -24,7 +24,7 @@
 - 🎯 Goal: Become a Skilled Software & ML Engineer
 - ⚡ Fun Fact: Debugging teaches me more than coding 😄
 
-<br><br><br><br><br><br>
+<br>
 
 ---
 ## 🛠️ Languages and Tools
