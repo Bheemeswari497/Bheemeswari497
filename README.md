@@ -59,17 +59,10 @@
 
 ## 📊 GitHub Stats
 
-<div align="center">
-
-<img 
-src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Bheemeswari497&theme=github_dark"
-width="45%" />
-
-<img 
-src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Bheemeswari497&theme=github_dark"
-width="45%" />
-
-</div>
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Bheemeswari497&theme=github_dark" width="48%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Bheemeswari497&theme=github_dark" width="48%" />
+</p>
 
 ## 📈 Contribution Graph
 
