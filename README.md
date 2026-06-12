@@ -59,17 +59,17 @@
 
 ## 📊 GitHub Stats
 
-<p align="center">
+<div align="center">
 
 <img 
-src="https://github-readme-stats.vercel.app/api?username=Bheemeswari497&show_icons=true&theme=tokyonight" 
-width="48%" />
+src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Bheemeswari497&theme=tokyonight"
+width="45%" />
 
 <img 
-src="https://github-readme-stats.vercel.app/api/top-langs/?username=Bheemeswari497&layout=compact&theme=tokyonight" 
-width="40%" />
+src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Bheemeswari497&theme=tokyonight"
+width="45%" />
 
-</p>
+</div>
 
 ## 📈 Contribution Graph
 
