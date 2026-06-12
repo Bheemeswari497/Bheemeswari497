@@ -62,11 +62,11 @@
 <div align="center">
 
 <img 
-src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Bheemeswari497&theme=tokyonight"
+src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Bheemeswari497&theme=github_dark"
 width="45%" />
 
 <img 
-src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Bheemeswari497&theme=tokyonight"
+src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Bheemeswari497&theme=github_dark"
 width="45%" />
 
 </div>
