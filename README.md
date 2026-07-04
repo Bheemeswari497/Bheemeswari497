@@ -10,6 +10,7 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=26&pause=1000&color=58A6FF&center=true&vCenter=true&width=800&lines=AIML+Student;Full+Stack+Developer;DSA+Learner;Open+Source+Contributor;Future+ML+Engineer;Building+Real+World+Projects" alt="Typing SVG" />
 </p>
 ---
+
 ## 👋 About Me
 
 <img align="right" alt="Coding" width="320" src="https://media.tenor.com/-UygBh3nnfEAAAAC/coding.gif">
