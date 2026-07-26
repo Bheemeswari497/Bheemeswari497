@@ -25,7 +25,13 @@
 </td>
 <td width="35%" align="center">
 
-<img src="https://media.tenor.com/-UygBh3nnfEAAAAC/coding.gif" width="300"/>
+<td width="35%" align="right">
+
+<img src="https://media.tenor.com/-UygBh3nnfEAAAAC/coding.gif"
+     width="300"
+     style="margin-right:30px;"/>
+
+</td>
 
 </td>
 </tr>
