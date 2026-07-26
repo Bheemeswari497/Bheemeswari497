@@ -15,7 +15,7 @@
 <table width="100%">
 <tr>
 
-<td width="65%" valign="middle">
+<td width="58%" valign="middle">
 
 - 🎓 B.Tech in Artificial Intelligence & Machine Learning
 - 💻 Full Stack Developer building end-to-end web apps
@@ -25,17 +25,15 @@
 
 </td>
 
-<td width="35%" align="center">
+<td width="42%" align="right">
 
-<img src="https://media.tenor.com/-UygBh3nnfEAAAAC/coding.gif" width="300"/>
+<img src="https://media.tenor.com/-UygBh3nnfEAAAAC/coding.gif"
+     width="380"/>
 
 </td>
 
 </tr>
 </table>
-
-<br/>
-
 ## 🛠️ Tech Stack
 
 <div align="center">
