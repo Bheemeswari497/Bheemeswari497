@@ -14,6 +14,7 @@
 
 <table width="100%">
 <tr>
+
 <td width="65%" valign="middle">
 
 - 🎓 B.Tech in Artificial Intelligence & Machine Learning
@@ -23,17 +24,13 @@
 - 🌐 Open Source Contributor giving back to the community
 
 </td>
+
 <td width="35%" align="center">
 
-<td width="35%" align="right">
-
-<img src="https://media.tenor.com/-UygBh3nnfEAAAAC/coding.gif"
-     width="300"
-     style="margin-right:30px;"/>
+<img src="https://media.tenor.com/-UygBh3nnfEAAAAC/coding.gif" width="300"/>
 
 </td>
 
-</td>
 </tr>
 </table>
 
