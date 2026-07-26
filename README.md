@@ -21,7 +21,7 @@
 
 </div>
 
-<img src="https://media.tenor.com/-UygBh3nnfEAAAAC/coding.gif" width="260"/>
+
 
 ---
 
@@ -54,7 +54,7 @@
 </td>
 <td width="40%" align="center">
 
-<img src="https://raw.githubusercontent.com/devSouvik/devSouvik/master/gif3.gif" width="100%"/>
+<img src="https://media.tenor.com/-UygBh3nnfEAAAAC/coding.gif" width="260"/>
 
 </td>
 </tr>
