@@ -21,7 +21,7 @@
 
 </div>
 
-<img src="https://media.tenor.com/-UygBh3nnfEAAAAC/coding.gif" width="100%"/>
+<img src="https://media.tenor.com/-UygBh3nnfEAAAAC/coding.gif" width="260"/>
 
 ---
 
