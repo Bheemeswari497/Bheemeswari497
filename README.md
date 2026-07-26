@@ -146,13 +146,11 @@
 
 <br/><br/>
 
-<img src="https://metrics.lecoq.io/Bheemeswari497?template=classic&theme=dark&base.header=0&base.activity=0&base.community=0&base.repositories=0&base.metadata=0&languages=1&languages.limit=8&languages.threshold=0" width="95%" />
-
 </div>
 
 ---
 
-<h2 align="center">🐍 Contribution Snake</h2>
+<h2 align="center">Heat Map</h2>
 
 <div align="center">
 
