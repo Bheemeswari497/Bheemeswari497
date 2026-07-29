@@ -82,7 +82,13 @@
 
 <div align="center">
 
-<img src="https://streak-stats.demolab.com?user=Bheemeswari497&theme=tokyonight&hide_border=true" alt="GitHub Streak"/>
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=Bheemeswari497&show_icons=true&theme=radical&hide_border=true"/>
+
+<img height="165" src="https://streak-stats.demolab.com?user=Bheemeswari497&theme=radical&hide_border=true"/>
+
+<br><br>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Bheemeswari497&theme=react-dark&hide_border=true" width="95%"/>
 
 </div>
 
@@ -163,3 +169,5 @@ A full-featured e-commerce web app with product browsing, cart management, and a
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=140&section=footer"/>
 
 </div>
+
+where i can edit to github analysis image
