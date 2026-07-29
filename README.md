@@ -82,13 +82,13 @@
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=Bheemeswari497&show_icons=true&theme=radical&hide_border=true"/>
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=Bheemeswari497&show_icons=true&theme=tokyonight&hide_border=true&count_private=true"/>
 
-<img height="165" src="https://streak-stats.demolab.com?user=Bheemeswari497&theme=radical&hide_border=true"/>
+<img height="170" src="https://github-readme-streak-stats.herokuapp.com?user=Bheemeswari497&theme=tokyonight&hide_border=true"/>
 
 <br><br>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Bheemeswari497&theme=react-dark&hide_border=true" width="95%"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Bheemeswari497&theme=react-dark&hide_border=true"/>
 
 </div>
 
