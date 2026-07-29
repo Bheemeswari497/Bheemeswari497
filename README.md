@@ -82,19 +82,7 @@
 
 <div align="center">
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Bheemeswari497&theme=tokyonight"/>
-
-<br><br>
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Bheemeswari497&theme=tokyonight"/>
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Bheemeswari497&theme=tokyonight"/>
-
-<br><br>
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Bheemeswari497&theme=tokyonight"/>
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Bheemeswari497&theme=tokyonight&utcOffset=5.5"/>
+<img src="https://streak-stats.demolab.com?user=Bheemeswari497&theme=tokyonight&hide_border=true" alt="GitHub Streak"/>
 
 </div>
 
