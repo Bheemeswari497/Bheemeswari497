@@ -82,13 +82,19 @@
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=Bheemeswari497&show_icons=true&theme=radical&hide_border=true"/>
-
-<img height="165" src="https://streak-stats.demolab.com?user=Bheemeswari497&theme=radical&hide_border=true"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Bheemeswari497&theme=github_dark" width="100%"/>
 
 <br><br>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Bheemeswari497&theme=react-dark&hide_border=true" width="95%"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Bheemeswari497&theme=github_dark" width="48%"/>
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Bheemeswari497&theme=github_dark" width="48%"/>
+
+<br><br>
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Bheemeswari497&theme=github_dark" width="48%"/>
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Bheemeswari497&theme=github_dark&utcOffset=5.5" width="48%"/>
 
 </div>
 
