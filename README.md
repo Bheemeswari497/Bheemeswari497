@@ -15,20 +15,27 @@
 <table width="100%">
 <tr>
 
-<td width="60%" valign="middle">
+<td width="58%" valign="middle">
 
-- 🎓 B.Tech in Artificial Intelligence & Machine Learning
-- 💻 Full Stack Developer building end-to-end web apps
-- 🤖 AI/ML Enthusiast, always exploring new models & tools
-- 🧩 DSA Enthusiast who enjoys solving problems daily
-- 🌐 Open Source Contributor giving back to the community
+### 👋 Hello!
+
+🎓 **B.Tech in Artificial Intelligence & Machine Learning**
+
+💻 **Full Stack Developer** building scalable web applications
+
+🤖 Passionate about **Artificial Intelligence, Machine Learning & Generative AI**
+
+🧩 Strong interest in **Data Structures & Algorithms**
+
+🌍 **Open Source Contributor** committed to continuous learning
+
+🚀 Building innovative, real-world software solutions
 
 </td>
 
-<td width="42%" align="right">
+<td width="42%" align="center">
 
-<img src="https://media.tenor.com/-UygBh3nnfEAAAAC/coding.gif"
-     width="380"/>
+<img src="https://media.tenor.com/-UygBh3nnfEAAAAC/coding.gif" width="380"/>
 
 </td>
 
