@@ -5,13 +5,10 @@
 <a href="https://git.io/typing-svg">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=800&color=A78BFA&center=true&vCenter=true&width=600&lines=AIML+Undergraduate+%F0%9F%A4%96;Full+Stack+Developer+%F0%9F%92%BB;DSA+Enthusiast+%F0%9F%A7%A9;Open+Source+Contributor+%F0%9F%8C%90" alt="Typing SVG" />
 </a>
-
 </div>
-
 <br/>
 
 ## 💫 About Me
-
 <table width="100%">
 <tr>
 
