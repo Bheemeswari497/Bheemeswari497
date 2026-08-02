@@ -40,7 +40,6 @@
 </table>
 
 ## 🛠️ Tech Stack
-
 <div align="center">
 
 **Languages**
