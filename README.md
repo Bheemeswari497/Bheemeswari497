@@ -166,7 +166,7 @@ A full-featured e-commerce web app with product browsing, cart management, and a
 
 <div align="center">
 
-**✨ Consistency beats motivation. Discipline builds success. ✨**
+**✨ Consistency beats motivation. Discipline builds success ✨**
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=140&section=footer"/>
 
