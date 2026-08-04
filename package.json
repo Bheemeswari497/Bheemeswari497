@@ -1,0 +1,13 @@
+{
+  "name": "github-stats-generator",
+  "version": "1.0.0",
+  "description": "Self-hosted GitHub Stats and Streak SVG generator",
+  "main": "scripts/generateStats.js",
+  "type": "module",
+  "scripts": {
+    "generate": "node scripts/generateStats.js && node scripts/generateStreak.js",
+    "generate:stats": "node scripts/generateStats.js",
+    "generate:streak": "node scripts/generateStreak.js"
+  },
+  "dependencies": {}
+}
