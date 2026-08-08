@@ -8,7 +8,7 @@ import path from 'path';
  * @returns {Promise<object>} Response data
  */
 export async function queryGraphQL(query, variables = {}) {
-  const token = process.env.GH_TOKEN || process.env.GITHUB_TOKEN;
+  const token = (process.env.GH_TOKEN && process.env.GH_TOKEN.trim()) || process.env.GITHUB_TOKEN;
   if (!token) {
     throw new Error('GH_TOKEN or GITHUB_TOKEN environment variable is not defined.');
   }

@@ -86,7 +86,8 @@
 <div align="center">
 
 <!-- GitHub Stats -->
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=Bheemeswari497&show_icons=true&theme=radical&hide_border=true"/>
+<img src="assets/github-stats.svg" height="165" alt="GitHub Stats"/>
+<img src="assets/github-streak.svg" height="165" alt="GitHub Streak"/>
 
 <br><br>
 

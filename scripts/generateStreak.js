@@ -41,7 +41,7 @@ function formatDate(dateStr) {
 
 async function main() {
   try {
-    const username = 'Bheemeswari497';
+    const username = process.env.GITHUB_REPOSITORY_OWNER || 'Bheemeswari497';
     console.log(`Fetching contribution years for ${username}...`);
     
     const yearsData = await queryGraphQL(YEARS_QUERY, { username });

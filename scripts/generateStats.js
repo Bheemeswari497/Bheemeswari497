@@ -36,7 +36,7 @@ function calculateGrade(stars, commits, prs, issues) {
 
 async function main() {
   try {
-    const username = 'Bheemeswari497';
+    const username = process.env.GITHUB_REPOSITORY_OWNER || 'Bheemeswari497';
     console.log(`Fetching stats for ${username}...`);
     
     const data = await queryGraphQL(QUERY, { username });
