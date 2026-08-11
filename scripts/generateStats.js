@@ -5,13 +5,6 @@ query userInfo($username: String!) {
   user(login: $username) {
     name
     login
-    repositories(first: 100, ownerAffiliations: [OWNER], isFork: false) {
-      nodes {
-        stargazers {
-          totalCount
-        }
-      }
-    }
     contributionsCollection {
       totalCommitContributions
       totalPullRequestContributions
@@ -47,9 +40,27 @@ async function main() {
       throw new Error(`User not found: ${username}`);
     }
 
-    const repos = user.repositories.nodes || [];
-    const stars = repos.reduce((sum, repo) => sum + (repo.stargazers?.totalCount || 0), 0);
-    
+    // Fetch stargazers count via REST API
+    let stars = 0;
+    const token = (process.env.GH_TOKEN && process.env.GH_TOKEN.trim()) ||
+                  (process.env.GITHUB_TOKEN && process.env.GITHUB_TOKEN.trim());
+    try {
+      const reposResponse = await fetch(`https://api.github.com/users/${username}/repos?per_page=100`, {
+        headers: {
+          'User-Agent': 'github-stats-generator',
+          ...(token ? { 'Authorization': `Bearer ${token}` } : {})
+        }
+      });
+      if (reposResponse.ok) {
+        const repos = await reposResponse.json();
+        if (Array.isArray(repos)) {
+          stars = repos.reduce((sum, repo) => sum + (repo.stargazers_count || 0), 0);
+        }
+      }
+    } catch (e) {
+      console.warn('Could not fetch repos for stars count via REST:', e);
+    }
+
     const commits = user.contributionsCollection?.totalCommitContributions || 0;
     const prs = user.contributionsCollection?.totalPullRequestContributions || 0;
     const issues = user.contributionsCollection?.totalIssueContributions || 0;
