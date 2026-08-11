@@ -17,7 +17,6 @@ query userInfo($username: String!) {
       totalPullRequestContributions
       totalIssueContributions
       totalRepositoryContributions
-      restrictedContributionsCount
     }
   }
 }
@@ -51,8 +50,7 @@ async function main() {
     const repos = user.repositories.nodes || [];
     const stars = repos.reduce((sum, repo) => sum + (repo.stargazers?.totalCount || 0), 0);
     
-    const commits = (user.contributionsCollection?.totalCommitContributions || 0) +
-                    (user.contributionsCollection?.restrictedContributionsCount || 0);
+    const commits = user.contributionsCollection?.totalCommitContributions || 0;
     const prs = user.contributionsCollection?.totalPullRequestContributions || 0;
     const issues = user.contributionsCollection?.totalIssueContributions || 0;
     const contributedTo = user.contributionsCollection?.totalRepositoryContributions || 0;
