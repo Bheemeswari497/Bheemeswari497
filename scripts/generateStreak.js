@@ -41,7 +41,9 @@ function formatDate(dateStr) {
 
 async function main() {
   try {
-    const username = process.env.GITHUB_REPOSITORY_OWNER || 'Bheemeswari497';
+    const username = process.env.GITHUB_REPOSITORY_OWNER || 
+                     (process.env.GITHUB_REPOSITORY ? process.env.GITHUB_REPOSITORY.split('/')[0] : '') || 
+                     'Bheemeswari497';
     console.log(`Fetching contribution years for ${username}...`);
     
     const yearsData = await queryGraphQL(YEARS_QUERY, { username });
@@ -82,52 +84,24 @@ async function main() {
       .map(([date, count]) => ({ date, count }))
       .sort((a, b) => a.date.localeCompare(b.date));
 
-    // Calculate Streak Stats
-    let totalContributions = 0;
-    let longestStreak = { count: 0, start: '', end: '' };
-    let currentStreak = { count: 0, start: '', end: '' };
-    
-    let runningStreak = null;
-    
-    // Helper to finalize running streak
-    const finalizeRunningStreak = () => {
-      if (runningStreak) {
-        if (runningStreak.count > longestStreak.count) {
-          longestStreak = { ...runningStreak };
-        }
-        runningStreak = null;
-      }
-    };
-
-    for (const day of sortedDays) {
-      totalContributions += day.count;
-      
-      if (day.count > 0) {
-        if (!runningStreak) {
-          runningStreak = { count: 1, start: day.date, end: day.date };
-        } else {
-          runningStreak.count++;
-          runningStreak.end = day.date;
-        }
-      } else {
-        finalizeRunningStreak();
-      }
-    }
-    finalizeRunningStreak();
-
-    // Now find the current active streak.
-    // The current streak must be active up to today or yesterday.
-    // Let's find today and yesterday dates in local/UTC terms.
+    // Dates string for today and yesterday (UTC)
     const todayStr = new Date().toISOString().split('T')[0];
     const yesterday = new Date();
     yesterday.setDate(yesterday.getDate() - 1);
     const yesterdayStr = yesterday.toISOString().split('T')[0];
 
-    // Find if there is an active streak ending today or yesterday
-    let activeStreak = { count: 0, start: '', end: '' };
+    // Filter out future calendar dates
+    const pastAndTodayDays = sortedDays.filter(day => day.date <= todayStr);
+
+    let totalContributions = 0;
+    let longestStreak = { count: 0, start: '', end: '' };
+    let currentStreak = { count: 0, start: '', end: '' };
+
     let tempStreak = null;
-    
-    for (const day of sortedDays) {
+
+    for (const day of pastAndTodayDays) {
+      totalContributions += day.count;
+
       if (day.count > 0) {
         if (!tempStreak) {
           tempStreak = { count: 1, start: day.date, end: day.date };
@@ -135,21 +109,19 @@ async function main() {
           tempStreak.count++;
           tempStreak.end = day.date;
         }
+        if (tempStreak.count > longestStreak.count) {
+          longestStreak = { ...tempStreak };
+        }
       } else {
-        if (tempStreak) {
-          if (tempStreak.end === todayStr || tempStreak.end === yesterdayStr) {
-            activeStreak = { ...tempStreak };
-          }
+        if (day.date !== todayStr) {
           tempStreak = null;
         }
       }
     }
-    // Check if the last streak in the array is active
-    if (tempStreak && (tempStreak.end === todayStr || tempStreak.end === yesterdayStr)) {
-      activeStreak = { ...tempStreak };
-    }
 
-    currentStreak = activeStreak;
+    if (tempStreak && (tempStreak.end === todayStr || tempStreak.end === yesterdayStr)) {
+      currentStreak = { ...tempStreak };
+    }
 
     // Build the date ranges strings
     const currentStreakRange = currentStreak.count > 0

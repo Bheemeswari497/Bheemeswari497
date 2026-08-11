@@ -5,7 +5,7 @@ query userInfo($username: String!) {
   user(login: $username) {
     name
     login
-    repositories(first: 100, ownerAffiliations: OWNER, isFork: false) {
+    repositories(first: 100, ownerAffiliations: [OWNER], isFork: false) {
       nodes {
         stargazers {
           totalCount
@@ -36,7 +36,9 @@ function calculateGrade(stars, commits, prs, issues) {
 
 async function main() {
   try {
-    const username = process.env.GITHUB_REPOSITORY_OWNER || 'Bheemeswari497';
+    const username = process.env.GITHUB_REPOSITORY_OWNER || 
+                     (process.env.GITHUB_REPOSITORY ? process.env.GITHUB_REPOSITORY.split('/')[0] : '') || 
+                     'Bheemeswari497';
     console.log(`Fetching stats for ${username}...`);
     
     const data = await queryGraphQL(QUERY, { username });
