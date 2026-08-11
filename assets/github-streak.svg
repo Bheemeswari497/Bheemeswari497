@@ -1,3 +1,4 @@
+
 <svg width="495" height="195" viewBox="0 0 495 195" fill="none" xmlns="http://www.w3.org/2000/svg">
   <style>
     .title { font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif; fill: #a78bfa; }
@@ -15,15 +16,16 @@
   <!-- Total Contributions Panel -->
   <g transform="translate(10, 0)">
     <g transform="translate(10, 45)">
+      <!-- Total contributions icon/circle placeholder or decoration -->
       <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#a78bfa" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 8px;">
         <circle cx="12" cy="12" r="10"></circle>
         <polyline points="12 6 12 12 16 14"></polyline>
       </svg>
     </g>
     <g transform="translate(45, 50)">
-      <text class="val">--</text>
+      <text class="val">433</text>
       <text y="22" class="label">Total Contributions</text>
-      <text y="38" class="range">--</text>
+      <text y="38" class="range">Jan 1, 2024 - Present</text>
     </g>
   </g>
 
@@ -32,12 +34,13 @@
   <!-- Current Streak Panel -->
   <g transform="translate(165, 0)">
     <g transform="translate(15, 45)">
+      <!-- Orange Fire icon -->
       <path class="fire-icon" d="M12 2C12 2 15 5.5 15 8.5C15 10.98 13.66 13 12 13C10.34 13 9 10.98 9 8.5C9 7.39 9.5 5.92 10.5 4.5C9 6 8 8 8 10C8 13.31 10.69 16 14 16C17.31 16 20 13.31 20 10C20 6.5 16.5 4.5 12 2Z" transform="scale(1.3) translate(-2, -2)"/>
     </g>
     <g transform="translate(50, 50)">
-      <text class="val-active">--</text>
+      <text class="val-active">28</text>
       <text y="22" class="label">Current Streak</text>
-      <text y="38" class="range">--</text>
+      <text y="38" class="range">Jul 15 - Aug 11</text>
     </g>
   </g>
 
@@ -46,12 +49,13 @@
   <!-- Longest Streak Panel -->
   <g transform="translate(330, 0)">
     <g transform="translate(15, 45)">
+      <!-- Trophy icon -->
       <path fill="#a78bfa" d="M12 2a4 4 0 0 0-4 4v3.5a4 4 0 0 0 3.5 3.97V15H10a1 1 0 0 0 0 2h4a1 1 0 0 0 0-2h-1.5v-1.53A4 4 0 0 0 16 9.5V6a4 4 0 0 0-4-4zm-3 4a2 2 0 0 1 2-2v2.5a.5.5 0 0 0 .5.5.5.5 0 0 0 .5-.5V4a2 2 0 0 1 2 2v2.5H9V6zm5.5 3.5H9.5a2.5 2.5 0 0 0 5 0z" transform="scale(1.3) translate(-2, -2)"/>
     </g>
     <g transform="translate(50, 50)">
-      <text class="val">--</text>
+      <text class="val">38</text>
       <text y="22" class="label">Longest Streak</text>
-      <text y="38" class="range">--</text>
+      <text y="38" class="range">May 29 - Jul 5</text>
     </g>
   </g>
 </svg>
