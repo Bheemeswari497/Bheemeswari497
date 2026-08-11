@@ -73,10 +73,12 @@ export function saveSVG(filename, svgContent) {
  * @param {Error|string} error 
  */
 export function reportError(error) {
-  console.error('Error:', error);
+  const msg = error?.stack || error?.message || String(error);
+  console.error('Error:', msg);
+  console.log(`::error::${msg.replace(/\r?\n/g, '%0A')}`);
   if (process.env.GITHUB_STEP_SUMMARY) {
     try {
-      const summaryMsg = `### ❌ Stats Generation Error\n\`\`\`\n${error?.stack || error?.message || error}\n\`\`\`\n`;
+      const summaryMsg = `### ❌ Stats Generation Error\n\`\`\`\n${msg}\n\`\`\`\n`;
       fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY, summaryMsg, 'utf-8');
     } catch (e) {
       console.error('Failed to write to GITHUB_STEP_SUMMARY:', e);
