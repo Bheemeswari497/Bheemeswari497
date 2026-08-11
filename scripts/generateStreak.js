@@ -1,4 +1,4 @@
-import { queryGraphQL, saveSVG, formatNumber, THEME } from './utils.js';
+import { queryGraphQL, saveSVG, formatNumber, THEME, reportError } from './utils.js';
 
 const YEARS_QUERY = `
 query userYears($username: String!) {
@@ -201,7 +201,7 @@ async function main() {
 
     saveSVG('github-streak.svg', svg);
   } catch (error) {
-    console.error('Error generating streak SVG:', error);
+    reportError(error);
     process.exit(1);
   }
 }

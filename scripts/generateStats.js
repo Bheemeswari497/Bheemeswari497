@@ -1,4 +1,4 @@
-import { queryGraphQL, saveSVG, formatNumber, THEME } from './utils.js';
+import { queryGraphQL, saveSVG, formatNumber, THEME, reportError } from './utils.js';
 
 const QUERY = `
 query userInfo($username: String!) {
@@ -127,7 +127,7 @@ async function main() {
 
     saveSVG('github-stats.svg', svg);
   } catch (error) {
-    console.error('Error generating stats SVG:', error);
+    reportError(error);
     process.exit(1);
   }
 }

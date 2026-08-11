@@ -69,6 +69,22 @@ export function saveSVG(filename, svgContent) {
 }
 
 /**
+ * Report error to console and GITHUB_STEP_SUMMARY if available
+ * @param {Error|string} error 
+ */
+export function reportError(error) {
+  console.error('Error:', error);
+  if (process.env.GITHUB_STEP_SUMMARY) {
+    try {
+      const summaryMsg = `### ❌ Stats Generation Error\n\`\`\`\n${error?.stack || error?.message || error}\n\`\`\`\n`;
+      fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY, summaryMsg, 'utf-8');
+    } catch (e) {
+      console.error('Failed to write to GITHUB_STEP_SUMMARY:', e);
+    }
+  }
+}
+
+/**
  * Standard Theme Colors matching the user's profile "radical" theme
  */
 export const THEME = {
