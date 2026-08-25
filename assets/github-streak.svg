@@ -16,7 +16,7 @@
 
   <!-- Total Contributions Panel -->
   <g transform="translate(0, 0)">
-    <text x="82.5" y="72" text-anchor="middle" class="val-pink">475</text>
+    <text x="82.5" y="72" text-anchor="middle" class="val-pink">476</text>
     <text x="82.5" y="106" text-anchor="middle" class="label-pink">Total Contributions</text>
     <text x="82.5" y="134" text-anchor="middle" class="range">Jan 1, 2024 - Present</text>
   </g>
@@ -36,13 +36,13 @@
     </g>
 
     <!-- Current Streak Value inside ring -->
-    <text x="247.5" y="81" text-anchor="middle" class="val-yellow">40</text>
+    <text x="247.5" y="81" text-anchor="middle" class="val-yellow">41</text>
 
     <!-- Current Streak Label -->
     <text x="247.5" y="132" text-anchor="middle" class="label-yellow">Current Streak</text>
 
     <!-- Current Streak Range -->
-    <text x="247.5" y="152" text-anchor="middle" class="range">Jul 15 - Aug 23</text>
+    <text x="247.5" y="152" text-anchor="middle" class="range">Jul 15 - Aug 24</text>
   </g>
 
   <!-- Right Divider -->
@@ -50,8 +50,8 @@
 
   <!-- Longest Streak Panel -->
   <g transform="translate(0, 0)">
-    <text x="412.5" y="72" text-anchor="middle" class="val-pink">40</text>
+    <text x="412.5" y="72" text-anchor="middle" class="val-pink">41</text>
     <text x="412.5" y="106" text-anchor="middle" class="label-pink">Longest Streak</text>
-    <text x="412.5" y="134" text-anchor="middle" class="range">Jul 15 - Aug 23</text>
+    <text x="412.5" y="134" text-anchor="middle" class="range">Jul 15 - Aug 24</text>
   </g>
 </svg>
