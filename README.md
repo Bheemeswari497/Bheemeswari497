@@ -26,7 +26,7 @@
 
 🌍 **Open Source Contributor** committed to continuous learning
 
-🚀 Building innovative, real-world software solution
+🚀 Building innovative, real-world software solutions
 
 </td>
 
