@@ -30,21 +30,21 @@
     <g transform="translate(0, 40)">
       <path d="M10.47 7.5a3.001 3.001 0 1 1-5.94 0L1 7.5a1 1 0 0 1 0-2h3.53a3.001 3.001 0 0 1 5.94 0L14 5.5a1 1 0 0 1 0 2l-3.53 0zM7.5 9a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z" fill="#a78bfa"/>
       <text x="25" y="12" class="label">Total Commits:</text>
-      <text x="170" y="12" class="stat">325</text>
+      <text x="170" y="12" class="stat">326</text>
     </g>
 
     <!-- PRs -->
     <g transform="translate(0, 65)">
       <path d="M7.177 3.007L4.957.787a.75.75 0 0 1 1.06-1.06l3.5 3.5a.75.75 0 0 1 0 1.06l-3.5 3.5a.75.75 0 1 1-1.06-1.06l2.22-2.22H3.5a1.5 1.5 0 0 0-1.5 1.5V11.5a1.5 1.5 0 0 0 1.5 1.5h3.677l-2.22-2.22a.75.75 0 1 1 1.06-1.06l3.5 3.5a.75.75 0 0 1 0 1.06l-3.5 3.5a.75.75 0 0 1-1.06-1.06l2.22-2.22H3.5A3 3 0 0 1 .5 11.5V5.5a3 3 0 0 1 3-3h3.677z" fill="#a78bfa"/>
       <text x="25" y="12" class="label">Total PRs:</text>
-      <text x="170" y="12" class="stat">79</text>
+      <text x="170" y="12" class="stat">81</text>
     </g>
 
     <!-- Issues -->
     <g transform="translate(0, 90)">
       <path d="M8 1.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13zM0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm9 3a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm-.25-6.25a.75.75 0 0 0-1.5 0v3.5a.75.75 0 0 0 1.5 0v-3.5z" fill="#a78bfa"/>
       <text x="25" y="12" class="label">Total Issues:</text>
-      <text x="170" y="12" class="stat">28</text>
+      <text x="170" y="12" class="stat">30</text>
     </g>
 
     <!-- Contributed -->
